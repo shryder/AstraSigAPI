@@ -1,0 +1,13 @@
+{
+  "name": "astra-local-sig-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Shryder",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.26.1",
+    "ethers": "^5.6.2",
+    "express": "^4.17.3"
+  }
+}
