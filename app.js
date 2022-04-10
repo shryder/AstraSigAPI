@@ -8,7 +8,7 @@ const API_PORT = 1865;
 app.use(express.json());
 
 app.get("/api/config", (req, res) => {
-	if (req.header("Contract-Address").toLowerCase() !== "0x4c7E50caE947540a12Dda90e826A15c47CCe1aC9") {
+	if (req.header("Contract-Address").toLowerCase() !== "0x4c7E50caE947540a12Dda90e826A15c47CCe1aC9".toLowerCase()) {
 		return res.json({
 			success: false,
 			message: "Contract not supported"
